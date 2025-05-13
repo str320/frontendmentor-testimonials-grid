@@ -1,0 +1,46 @@
+/* Reset */
+
+/* Remove margin padding and use intuitive box model */
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Accessible line height and scroll behavior */
+html, body {
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    font-family: "Barlow Semi Condensed" sans-serif;
+    font-size: 1rem;
+}
+
+/* Improve text rendering */
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Improve media */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Inherit fonts */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Avoid text overflows */
+p, h1, h2, h3, h4 {
+    overflow-wrap: break-word;
+}
+
+/* Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4 {
+    text-wrap: balance;
+}

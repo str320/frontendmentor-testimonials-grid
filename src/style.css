@@ -1,0 +1,17 @@
+/* Reset */
+@import url("../base/_base.css");
+
+/* Default Styles */
+@import url("../default/_default.css");
+
+/* Container */
+@import url("../common.blocks/container/_container.css");
+
+/* Testimonials Layout */
+@import url("../common.blocks/testimonials__layout/_testimonials__layout.css");
+
+/* Testimonials Card */
+@import url("../common.blocks/testimonials__card/_testimonials__card.css");
+
+/* Media */
+@import url("../common.blocks/testimonials__layout/media/_media.css");
