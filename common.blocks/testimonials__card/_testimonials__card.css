@@ -1,6 +1,7 @@
 .testimonials__card {
     padding: 2rem;
     border-radius: 0.5rem;
+    box-shadow: 0 4px 44px rgba(0, 0, 0, 0.3);
 }
 
 .testimonials__card-details {
@@ -49,7 +50,8 @@
     margin: 0 0 1rem;
 }
 
-.testimonials__card-details-content.testimonials__card-details-content--dark {
+.testimonials__card-details-content
+.testimonials__card-details-content--dark {
     color: var(--clr-secondary-500);
     margin: 0 0 1rem;
 }
@@ -78,4 +80,10 @@
     font-size: var(--fs-13);
     line-height: var(--lh-140);
     margin: 0 0 1rem;
+}
+
+.testimonials__card-icon {
+    background-image: url("/images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right 15%;
 }

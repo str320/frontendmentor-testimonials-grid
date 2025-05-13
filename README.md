@@ -50,5 +50,5 @@ Effectively using Flexbox to align and space out content within each card, espec
 Implement hover effects and animations to make the cards more interactive and visually engaging.
 Improve accessibility by adding aria-labels and descriptive alt text for images and icons.
 Optimize for larger screens, adding further adjustments for desktop views to maintain a balanced layout.
-Implement dark mode styling to enhance visual accessibility and user preference.#
+Implement dark mode styling to enhance visual accessibility and user preference.
 

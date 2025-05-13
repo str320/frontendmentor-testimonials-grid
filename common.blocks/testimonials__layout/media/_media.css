@@ -49,4 +49,7 @@
         grid-column: 1;
         grid-row: 5;
     }
+    .testimonials__card-icon {
+    background-position: bottom right 15%;
+    }
 }
