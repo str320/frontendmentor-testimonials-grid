@@ -36,8 +36,11 @@
 
 body {
     background-color: #F6F5F6;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
 }
 
 .testimonials {
-    margin: 5rem 0;
+    margin: 2rem;
 }
