@@ -1,44 +1,46 @@
-/* Styles */
-:root {
-    /* Color */
-    --clr-primary-100: rgb(237, 228, 255);
-    --clr-primary-300: rgb(167, 117, 241);
-    --clr-primary-500: rgb(115, 63, 200);
+/* Reset */
 
-    --clr-secondary-100: rgb(231, 234, 238);
-    --clr-secondary-200: rgb(207, 207, 207);
-    --clr-secondary-400: rgb(103, 109, 126);
-    --clr-secondary-500: rgb(72, 85, 106);
-    
-    --clr-tertiary-100: rgb(255, 255, 255);
-    --clr-tertiary-600: rgb(25, 32, 45);
-    --clr-tertiary-900: rgb(18, 18, 18);
-
-    /* Fonts */
-
-    --fs-20: 1.25rem;
-    --fs-13: 0.8125rem;
-    --fs-11: 0.6875rem;
-
-    --fw-500: 500;
-    --fw-600: 600;
-
-    --lh-110: 1.1;
-    --lh-120: 1.2;
-    --lh-140: 1.4;
-
-    --sp-40: 2.5rem;
-    --sp-32: 2rem;
-    --sp-24: 1.5rem;
-    --sp-16: 1rem;
-    --sp-8: 0.5rem;
-    --sp-4: 0.25;
+/* Remove margin padding and use intuitive box model */
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
+/* Accessible line height and scroll behavior */
+html, body {
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    font-family: "Barlow Semi Condensed" sans-serif;
+    font-size: 1rem;
+}
+
+/* Improve text rendering */
 body {
-    background-color: #F6F5F6;
+    -webkit-font-smoothing: antialiased;
 }
 
-.testimonials {
-    margin: 5% 2rem;
+/* Improve media */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Inherit fonts */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Avoid text overflows */
+p, h1, h2, h3, h4 {
+    overflow-wrap: break-word;
+}
+
+/* Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4 {
+    text-wrap: balance;
 }
